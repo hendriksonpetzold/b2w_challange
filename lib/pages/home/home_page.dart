@@ -1,3 +1,4 @@
+import 'package:b2w_challange/style/app_fonts.dart';
 import 'package:flutter/material.dart';
 
 class HomePage extends StatelessWidget {
@@ -9,7 +10,12 @@ class HomePage extends StatelessWidget {
       appBar: AppBar(
         title: const Text('Home'),
       ),
-      body: Container(),
+      body: Container(
+        child: Text(
+          'dataawdwadwa',
+          style: TextStyle(fontFamily: AppFonts.customFont),
+        ),
+      ),
     );
   }
 }
