@@ -17,7 +17,7 @@ class HomePage extends StatelessWidget {
             'dataawdwadwa',
             style: TextStyle(fontFamily: AppFonts.customFont),
           ),
-          Container(
+          SizedBox(
             height: 20,
             width: 20,
             child: Image(
