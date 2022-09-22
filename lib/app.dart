@@ -1,6 +1,6 @@
 import 'package:b2w_challange/config/initial_bindings.dart';
 import 'package:b2w_challange/config/routes.dart';
-import 'package:b2w_challange/pages/home/home_page.dart';
+
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
